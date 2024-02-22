@@ -62,6 +62,7 @@ costo totale che ha pagato e il numero di prodotti*/
         garbage = scanner.nextLine();
         System.out.print("Vuoi inserire uno sconto? Inserisci * SI * o * NO * ");
         String input = scanner.nextLine().toUpperCase();
+
         if (input.equals("SI")){
             System.out.print("Quanto è lo sconto che vuoi applicare in percentuale? ");
             sconto = scanner.nextDouble();
